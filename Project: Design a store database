@@ -1,0 +1,21 @@
+CREATE TABLE JuansMexicanResturant (id integer Primary Key, name text, meat text, drink text, price integer);
+
+INSERT INTO JuansMexicanResturant VALUES
+(1, "Taco", "Carne Asada", "Jarrito", 5),
+(2, "Taco", "Barbacoa", "Jarrito", 6),
+(3, "Taco", "Sofritas", "Jarrito", 5),
+(4, "Taco", "Pollo Al Pastor", "Jarrito", 7),
+(5, "Burrito", "Carne Asada", "Jarrito", 9),
+(6, "Burrito", "Barbacoa", "Jarrito", 10),
+(7, "Burrito", "Sofritas", "Jarrito", 9),
+(8, "Burrito", "Pollo Al Pastor", "Jarrito", 12),
+(9, "Menudo", "Tripe", "Jarrito", 20),
+(10, "Enchiladas", "Pollo", "Jarrito", 22),
+(11, "Mole", "Pollo", "Jarrito", 25),
+(12, "Hamburgesa", "Carne", "Jarrito", 15),
+(13, "Hot Dog", "Carne", "Jarrito", 10),
+(14, "Chicken Salad", "Pollo", "Jarrito", 12),
+(15, "Sopa", "Pollo", "Jarrito", 10);
+
+SELECT * FROM JuansMexicanResturant ORDER By price;
+SELECT Meat Count By(*) FROM JuansMexicanResturant;
